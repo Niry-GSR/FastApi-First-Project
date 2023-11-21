@@ -1,0 +1,52 @@
+# .gitignore for FastAPI projects
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Compiled Python files
+*.pyc
+
+# Logs
+*.log
+
+# Configuration files
+*.ini
+
+# Ignore generated files
+__pycache__/
+dist/
+build/
+*.egg-info/
+
+# Local development settings
+local_settings.py
+
+# SQLite database file
+db.sqlite3
+
+# Environment variables file
+.env
+
+# Ignore Docker related files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# General
+.DS_Store
+
+
+# Ignore my added stuff / folders / files
+
